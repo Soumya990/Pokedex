@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pokédex</h1>
+    <div id="content-box">
+        <!-- left side, pokemon details -->
+        <div id="pokemon-info">
+            <p id="poke-title">#001&nbsp;BULBASAUR</p>
+            <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"></img>
+            <div id="pokemon-types">
+                <span class="type-box grass">GRASS</span>
+                <span class="type-box poison">POISON</span>
+            </div>
+            <div id="pokemon-description"></div>
+            <img src="./buttons.png" alt="" id="console-img" title="Generate Random">
+        </div>
+        <!-- right side, pokemon list -->
+        <div id="pokemon-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
